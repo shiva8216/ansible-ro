@@ -3,6 +3,13 @@
        name: mysql-server
        state: installed
 
+  - name: install Mysql Libraries
+    ansible.builtin.pip:
+      name: "{{ item }}"
+    loop:
+    - cryptography
+    - PyMySQL
+
   - name: start and enable mysql server
     ansible.builtin.service:
        name:  mysqld
