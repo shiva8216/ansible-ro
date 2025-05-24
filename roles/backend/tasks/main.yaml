@@ -13,6 +13,13 @@
      - mysql 
      - PyMySQL 
      
+  - name: install python Libraries
+    ansible.builtin.pip:
+      name: "{{ item }}"
+                 
+    loop:
+    - cryptography
+    - PyMySQL
 
   - name : add expense user
     ansible.builtin.user:
