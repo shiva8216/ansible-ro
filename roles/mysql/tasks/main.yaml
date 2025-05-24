@@ -7,5 +7,5 @@
 - name: Ensure MySQL is started and enabled
   service:
     name: mysqld
-    state: started
+    state: restarted
     enabled: yes
