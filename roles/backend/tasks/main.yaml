@@ -72,7 +72,7 @@
       state: import
       name: all
       login_user: "{{ MYSQL_USER }}"
-      login_password: "{{ MySQL_PASSD }}"
+      login_password: "{{ MySQL_PASSWD }}"
       login_host: db.itsmyroot82.fun
       target: /app/schema/backend.sql
 
