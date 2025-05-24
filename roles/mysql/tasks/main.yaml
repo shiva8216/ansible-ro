@@ -1,5 +1,4 @@
 - name: Install MySQL
-  apt:
-    name: mysql-server
-    state: present
+  name: mysql-server
+  state: present
   become: yes
