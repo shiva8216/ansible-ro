@@ -1,7 +1,6 @@
-- name: configuring MySQL server
+
+- name: Install MySQL using role
   hosts: mysql
   become: yes
-  # vars_files:
-  # - roles/mysql/vars/vault.yaml
   roles:
     - mysql

@@ -1,4 +1,5 @@
 - name: Install MySQL
+  hosts: mysql
   name: mysql-server
   state: present
   become: yes
