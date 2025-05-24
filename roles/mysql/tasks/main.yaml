@@ -1,5 +1,5 @@
 - name: Install mysql
-  #hosts: mysql
+  hosts: mysql
   become: yes
   name: mysql-server
   state: present
