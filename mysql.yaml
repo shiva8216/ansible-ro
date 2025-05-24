@@ -1,5 +1,5 @@
 
-- name: Install MySQL using role
+- name: Install MySQL on RHEL 9
   hosts: mysql
   become: yes
   roles:

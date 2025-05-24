@@ -1,5 +1,11 @@
-- name: Install MySQL
-  hosts: mysql
-  name: mysql-server
-  state: present
+- name: Install MySQL server on RHEL 9
+  dnf:
+    name: mysql
+    state: present
   become: yes
+
+- name: Ensure MySQL is started and enabled
+  service:
+    name: mysqld
+    state: started
+    enabled: yes
