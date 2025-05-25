@@ -1,0 +1,2 @@
+dependencies:
+- role: common #it vill give info about this dependecies to user, it "meta available, it ill check and proceed to further other vise it continues main directory"

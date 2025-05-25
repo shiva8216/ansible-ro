@@ -1,1 +1,3 @@
 BACKEND_HOST:  backend.itsmyroot82.fun
+APP_LOCATAION: /usr/share/nginx/html
+COMPONENT: frontend
