@@ -3,7 +3,7 @@
     ansible.builtin.dnf:
       name: nginx
       state: installed
-      tags: nginx
+       
 
   - name: enable and start nginx
     ansible.builtin.service:
@@ -11,7 +11,7 @@
       state: restarted
       enabled: yes
       tags:
-       - nginx
+     
 
   - name: include common role
     include_role:
