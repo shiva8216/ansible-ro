@@ -3,7 +3,7 @@
     ansible.builtin.dnf:
       name: nginx
       state: installed
-       
+    tags: nginx
 
   - name: enable and start nginx
     ansible.builtin.service:
