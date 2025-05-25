@@ -1,3 +1,5 @@
 MYSQL_HOST: db.itsmyroot82.fun
 MYSQL_USER:  root
 MySQL_PASSWD: ExpenseApp@1
+APP_LOCATAION: /app
+COMPONENT: backend
