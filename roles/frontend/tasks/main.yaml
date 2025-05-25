@@ -10,7 +10,7 @@
       name: nginx
       state: restarted
       enabled: yes
-      tags:
+    
      
 
   - name: include common role
