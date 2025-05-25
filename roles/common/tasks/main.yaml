@@ -3,7 +3,6 @@
     path: "{{ APP_LOCATAION }}" #backend folder is /app,  fronted /usr/share/nginx/html
     state: absent
 
-
 - name: create app directory
   ansible.builtin.file:
     path: "{{ APP_LOCATAION }}" #backend folder is /app,  fronted /usr/share/nginx/html
