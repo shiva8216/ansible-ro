@@ -17,6 +17,7 @@
     include_role:
         name: common
         tasks_from: main
+        tags: main
 
   # - name: delete html directory
   #   ansible.builtin.file:
